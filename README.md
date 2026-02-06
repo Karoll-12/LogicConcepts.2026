@@ -1,2 +1,2 @@
 # LogicConcepts.2026
-Log
+Este es un repositorio para epasar los conceptos de logia, c# y visual estudio
