@@ -5,12 +5,12 @@ var options = new List<string> { "s", "n" };
 
 do
 {
-    Console.WriteLine("Ingrese 3 numero diferentes");
-    var a = ConsoleExtension.GetInt("ingrese primer numero  :");
-    var b = ConsoleExtension.GetInt("ingrese segundo numero :");
-    var c = ConsoleExtension.GetInt("ingrese tercer numero  :");
+    Console.WriteLine("Ingrese 3 numeros enteros diferentes");
+    var a = ConsoleExtension.GetInt("ingrese primer numero:  ");
+    var b = ConsoleExtension.GetInt("ingrese segundo numero: ");
+    var c = ConsoleExtension.GetInt("ingrese tercer numero:  ");
 
-    if (a > b && a >c)
+    if (a > b && a > c)
     {
         Console.WriteLine($"El numero mayor es: {a}");
     }
@@ -22,6 +22,7 @@ do
     {
         Console.WriteLine($"El numero mayor es: {c}");
     }
+
     do
     {
         answer = ConsoleExtension.GetValidOptions("¿Deseas continuar [S]í, [N]o?: ", options);

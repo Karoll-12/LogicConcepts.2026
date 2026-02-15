@@ -3,7 +3,7 @@
     <Project Path="IsNumberOddOrNot/IsNumberOddOrNot.csproj" />
   </Folder>
   <Folder Name="/02/">
-    <Project Path="TheGreathestNumber/TheGreathestNumber.csproj" Id="cf8662cd-0166-4394-91f9-807ed8c4d561" />
+    <Project Path="TheGreathesNumber/TheGreathesNumber.csproj" Id="933d064d-df8a-483f-8ed3-8f9c1b3c6b82" />
   </Folder>
   <Folder Name="/Shared/">
     <Project Path="Shard/Shared.csproj" Id="b93a97f1-80de-4130-a266-a7253c3fae30" />
