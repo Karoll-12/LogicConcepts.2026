@@ -6,12 +6,43 @@
         {
             Console.Write(message);
             var numberString = Console.ReadLine();
-            var numberInt = 0;
-            if (int.TryParse(numberString, out numberInt))
+            if (int.TryParse(numberString, out int numberInt))
             {
                 return numberInt;
             }
             return 0;
+
+        }
+
+        public static float GetFloat(string message)
+        {
+            Console.Write(message);
+            var numberString = Console.ReadLine();
+            if (float.TryParse(numberString, out float numberFloat))
+            {
+                return numberFloat;
+            }
+
+            return 0;
+        }
+
+        public static decimal GetDecimal(string message)
+        {
+            Console.Write(message);
+            var numberString = Console.ReadLine();
+            if (decimal.TryParse(numberString, out decimal numberDecimal))
+            {
+                return numberDecimal;
+            }
+
+            return 0;
+        }
+
+        public static string? GetString(string message)
+        {
+            Console.Write(message);
+            var text = Console.ReadLine();
+            return text;  
         }
 
 
