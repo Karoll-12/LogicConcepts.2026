@@ -26,6 +26,9 @@
   <Folder Name="/09/">
     <Project Path="Shipping/Shipping.csproj" Id="037b18f1-49c4-47aa-8165-eae69afc3c34" />
   </Folder>
+  <Folder Name="/10/">
+    <Project Path="SucesoStore/SucesoStore.csproj" Id="c109f6da-2209-4ede-b2e8-e6ff10321aad" />
+  </Folder>
   <Folder Name="/Shared/">
     <Project Path="Shard/Shared.csproj" Id="b93a97f1-80de-4130-a266-a7253c3fae30" />
   </Folder>
