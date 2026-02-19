@@ -35,6 +35,9 @@
   <Folder Name="/12/">
     <Project Path="SumAndAverage/SumAndAverage.csproj" Id="a0fc891d-cf56-48f8-a884-d9b3af4d8057" />
   </Folder>
+  <Folder Name="/13/">
+    <Project Path="Factorial/Factorial.csproj" Id="197920df-ddf7-4467-a611-87e1dadfaed1" />
+  </Folder>
   <Folder Name="/Shared/">
     <Project Path="Shard/Shared.csproj" Id="b93a97f1-80de-4130-a266-a7253c3fae30" />
   </Folder>
