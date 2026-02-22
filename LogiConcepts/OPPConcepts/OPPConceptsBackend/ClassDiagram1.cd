@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OPPConceptsBackend.Date">
+    <Position X="1.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAJAAAAAAEAAEAAAMAAAAAAACEMAAAAAAAAAA=</HashCode>
+      <FileName>Date.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OPPConceptsBackend.Employee">
+    <Position X="1.75" Y="2" Width="1.5" />
+    <AssociationLine Name="BornDate" Type="OPPConceptsBackend.Date" FixedFromPoint="true">
+      <Path>
+        <Point X="2.188" Y="4.517" />
+        <Point X="2.188" Y="5.25" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.003" Y="0.284" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="HireDate" Type="OPPConceptsBackend.Date" FixedFromPoint="true">
+      <Path>
+        <Point X="2.75" Y="4.517" />
+        <Point X="2.75" Y="5.25" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.898" Y="0.263" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ABACAEAAAAAAAAAEEAAAAAAAACAAAAAAAAAAACAAAAg=</HashCode>
+      <FileName>Employee.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="BornDate" />
+      <Property Name="HireDate" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
