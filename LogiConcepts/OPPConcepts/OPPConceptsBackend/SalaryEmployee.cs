@@ -9,10 +9,14 @@ public class SalaryEmployee : Employee
     //Fields
     private decimal _salary;
 
-  
+    public SalaryEmployee(int id, string firstName, string lastName, bool isActive, Date bornDate, Date hireDate, int v) : base(id, firstName, lastName, isActive, bornDate, hireDate)
+    {
+    }
+
+
 
     //Contructors
-    public SalaryEmployee(int id, string firstName, string lastName, bool isActive, Date bornDate, Date hireDate, decimal salary) : 
+    public SalaryEmployee(int id, string firstName, string lastName, bool isActive, Date bornDate, Date hireDate, decimal salary, int v) : 
         base(id, firstName, lastName, isActive, bornDate, hireDate)
     {
         Salary = salary;
@@ -29,7 +33,7 @@ public class SalaryEmployee : Employee
     //Methods
     public override decimal GetValueTopay() => Salary;
 
-    public override string ToString() => base.ToString();
+     public override string ToString() => base.ToString();
 
     private decimal ValidateSalary(decimal salary)
     {
